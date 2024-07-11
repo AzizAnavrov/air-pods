@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background: #151515;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header__nav {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+    padding: 6px 0;
+}
+
+.header__nav-container-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-logo-item {
+    display: flex;
+    gap: 30px;
+}
+
+.header__nav-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav-box {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header__nav-item-link {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+
+.header-content {
+    background: url(../images/Header-content.jpg) no-repeat center /cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content__title {
+    font-family: 'Prosto';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75%;
+    color: #fff;
+}
+
+.header-content__link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #171718;
+    display: flex;
+    gap: 11px;
+    padding: 13px 14px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.main {
+    background: #151515;
+}
+
+.earpiece-right__box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.earpiece-rigth__box-text {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    max-width: 538px;
+    width: 100%;
+}
+
+.headphones__box {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.headphones__box-right {
+    max-width: 540px;
+    width: 100%;
+}
+
+.headphones__box-right-text {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+
+.headphones__box-left {
+    max-width: 457px;
+    width: 100%;
+}
+
+.earpiece-left__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.earpiece-left__box-left {
+    max-width: 333px;
+    width: 100%;
+}
+
+.earpiece-left__box-left-text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+
+.earpiece-left__box-right {
+    max-width: 333px;
+    width: 100%;
+}
+
+.earpiece-left__box-right-text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.earpiece-left__box-middle {
+    position: relative;
+}
+
+.earpiece-left__box-middle::before {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: #c4c4c4;
+    ;
+    position: absolute;
+    left: -25%;
+    top: 50%;
+}
+
+.earpiece-left__box-middle::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: #c4c4c4;
+    ;
+    position: absolute;
+    right: -25%;
+    bottom: 50%;
+}
+
+.cards__box-item {
+    border-radius: 6px;
+    max-width: 255px;
+    width: 100%;
+    background: #fff;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__box-item-title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.cards__box-item-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards__box-item-text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.cards__box-item-btn {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 7px 57px;
+    background: #151515;
+}
+
+.cards__box {
+    display: flex;
+    gap: 30px;
+}
+
+.earpiece-right {
+    margin-bottom: 50px;
+}
+
+.headphones {
+    margin-bottom: 50px;
+}
+
+.earpiece-left {
+    margin-bottom: 79px;
+}
+
+.cards__box {
+    margin-bottom: 55px;
+}
+
+.footer {
+    box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+    padding: 80px 0;
+    align-items: center;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__box-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__box-list-link {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+
+.footer__box-images {
+    display: flex;
+    gap: 30px;
+}

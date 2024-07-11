@@ -1,0 +1,125 @@
+@media (max-width: 1140px) {
+
+    .earpiece-left__box-middle::after,
+    .earpiece-left__box-middle::before {
+        content: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header-content {
+        height: 500px;
+    }
+
+    .header-content__title {
+        font-size: 80px;
+        color: aqua;
+    }
+
+    .earpiece-right__box,
+    .earpiece-left__box {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-content {
+        height: 400px;
+    }
+
+    .headphones__box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .earpiece-rigth__box-text {
+        font-size: 18px;
+        color: yellow;
+    }
+
+    .headphones__box {
+        gap: 40px;
+    }
+
+    .headphones__box-right-text {
+        font-size: 18px;
+        color: red;
+    }
+
+    .earpiece-left__box-left-text {
+        font-size: 18px;
+        color: blue;
+    }
+
+    .earpiece-left__box-right-text {
+        font-size: 18px;
+        color: aqua;
+    }
+
+    .cards__box {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .header__nav-logo-item,
+    .header__nav-box {
+        flex-direction: column;
+    }
+
+    .header-content {
+        height: 350px;
+    }
+
+    .header-content__title {
+        font-size: 60px;
+        color: red;
+    }
+
+    .earpiece-rigth__box-text,
+    .headphones__box-right-text,
+    .earpiece-left__box-left-text,
+    .earpiece-left__box-right-text {
+        font-size: 16px;
+    }
+
+    .cards__box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__box {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-content {
+        height: 300px;
+    }
+
+    .header-content__title {
+        font-size: 40px;
+        color: darkorange;
+    }
+
+    .header-content__link {
+        font-size: 16px;
+        background: blue;
+        color: white;
+        padding: 11px 12px;
+    }
+
+    .header__nav-box {
+        justify-content: end;
+    }
+
+    .header__nav-logo {
+        display: flex;
+        justify-content: center;
+    }
+}
